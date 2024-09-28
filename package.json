@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome lint --write",
-    "format": "biome format --write"
+    "check": "biome check ./src",
+    "check:fix": "biome check --write ./src",
+    "next:lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.13",
